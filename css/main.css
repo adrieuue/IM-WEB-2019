@@ -1,0 +1,15 @@
+body {
+	background: blue;
+	color: orange;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+p {
+
+}
+
+.fp {
+	text-transform: uppercase;
+	letter-spacing: 0.053em;
+}
