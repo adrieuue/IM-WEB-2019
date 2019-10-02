@@ -1,0 +1,33 @@
+/* start at div-5 because div is used in the alphabet*/
+
+div-5 {
+	position: absolute;
+	/*background: blue;*/
+	height: 185px;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.en {
+	left:50px;
+
+}
+
+.vi {
+	left:50px;
+	top:210px;
+}
+
+.ron {
+	left:50px;
+	top:410px;
+}
+
+.ment {
+	left:50px;
+	top:610px;
+}
+
+
+
