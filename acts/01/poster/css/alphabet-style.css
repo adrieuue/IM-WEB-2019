@@ -1,5 +1,5 @@
 .letter {
-
+				
         		width:110px; /*resize as you see fit */
         		height:185px; /*resize as you see fit */
         		display:inline-block;  /*this makes block level elements act like letters (so they sit next to eachother) */

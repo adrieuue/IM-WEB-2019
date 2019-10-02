@@ -1,0 +1,265 @@
+
+.grid {
+	height:3330px;
+	width:4440px;
+	display: grid;
+	grid-template-columns:repeat(24,185px);
+	grid-template-rows: repeat(18,185px);
+
+}
+
+.what {
+	background: white;
+	grid-area: 1/1/span 1/span 3;
+}
+
+.comes {
+	background: white;
+	grid-area: 3/4/span 1/span 4;
+}
+
+.after {
+	background: white;
+	grid-area:5/8/span 1/span 4;
+}
+
+.the {
+	background: white;
+	grid-area:7/13/span 1/span 3;
+}
+
+.environ {
+	background: white;
+	grid-area:9/15/span 1/span 5;
+}
+
+.ment {
+	background: white;
+	grid-area:11/21/span 1/span 3;
+}
+
+
+.what-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 0% 50% 0%;
+	background: white;
+	grid-area:1/4/span 1/span 1;
+}
+
+.comes-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 50% 50% 0%;
+	background: white;
+	grid-area:3/8/span 1/span 1;
+}
+
+.after-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 50% 50% 0%;
+	background: white;
+	grid-area:5/12/span 1/span 1;
+}
+
+.the-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 50% 50% 0%;
+	background: white;
+	grid-area:7/16/span 1/span 1;
+}
+
+.environ-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 50% 50% 0%;
+	background: white;
+	grid-area:9/20/span 1/span 1;
+}
+
+.ment-end {
+	height: 185px;
+	width: 185px;
+	border-radius: 0% 50% 0% 0%;
+	background: white;
+	grid-area:11/24/span 1/span 1;
+}
+
+.comes-start {
+	background: white;
+	grid-area:3/1/span 1/span 3;
+}
+
+.after-start {
+	background: white;
+	grid-area:5/1/span 1/span 7;
+}
+
+.the-start {
+	background: white;
+	grid-area:7/1/span 1/span 12;
+}
+
+.environ-start {
+	background: white;
+	grid-area:9/1/span 1/span 14;
+}
+
+.ment-start {
+	background: white;
+	grid-area:11/1/span 1/span 20;
+}
+
+.what-under {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: black;
+	grid-area:2/2/span 1/span 1;
+}
+
+.comes-under {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: black;
+	grid-area:4/6/span 1/span 1;
+}
+
+.after-under {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: black;
+	grid-area:6/10/span 1/span 1;
+}
+
+.the-under {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: black;
+	grid-area:8/14/span 1/span 1;
+}
+
+.environ-under {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: black;
+	grid-area:10/18/span 1/span 1;
+}
+
+.what-right {
+	background: black;
+	grid-area:1/6/span 1/25;
+}
+
+.what-curve {
+	background: black;
+	grid-area:1/5/span 1/span 1;
+	border-radius: 50% 0% 0% 0%;
+}
+
+.comes-right {
+	background: black;
+	grid-area:3/9/span 1/25;
+}
+
+.after-right {
+	background: black;
+	grid-area:5/13/span 1/25;
+}
+
+.the-right {
+	background: black;
+	grid-area:7/17/span 1/25;
+}
+
+.environ-right {
+	background: black;
+	grid-area:9/21/span 1/25;
+}
+
+.what-block {
+	background: black;
+	grid-area:2/3/span 1/25;
+}
+
+.comes-block {
+	background: black;
+	grid-area:4/7/span 1/25;
+}
+
+.after-block {
+	background: black;
+	grid-area:6/11/span 1/25;
+}
+
+.the-block {
+	background: black;
+	grid-area:8/15/span 1/25;
+}
+
+.environ-block {
+	background: black;
+	grid-area:10/19/span 1/25;
+}
+
+.what-square {
+	background: black;
+	grid-area:1/4/span 1/span 1;
+	z-index: -1;
+}
+
+.comes-square {
+	background: black;
+	grid-area:3/8/span 1/span 1;
+	z-index: -1;
+}
+
+.after-square {
+	background: black;
+	grid-area:5/12/span 1/span 1;
+	z-index: -1;
+}
+
+.the-square {
+	background: black;
+	grid-area:7/16/span 1/span 1;
+	z-index: -1;
+}
+
+.environ-square {
+	background: black;
+	grid-area:9/20/span 1/span 1;
+	z-index: -1;
+}
+
+.ment-square {
+	background: black;
+	grid-area:11/24/span 1/span 1;
+	z-index: -1;
+}
+
+.question {
+	height: 185px;
+	width: 185px;
+	border-radius: 50% 0% 0% 50%;
+	background: green;
+	grid-area:18/24/span 1/span 1;
+}
+
+h1 {
+	padding-left: 20px;
+	font-size: 75px;
+	font-family: helvetica;
+	text-align: center;
+	color: white;
+
+}
+	
+
+

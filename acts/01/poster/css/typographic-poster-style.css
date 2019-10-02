@@ -1,33 +1,134 @@
-/* start at div-5 because div is used in the alphabet*/
-
-div-5 {
-	position: absolute;
-	/*background: blue;*/
-	height: 185px;
-	padding: 10px;
-	margin: 10px;
-
+html, body {
+	width: 100%;
+	font-family: helvetica;
 }
 
-.en {
-	left:50px;
-
+.grid {
+	height: 1400px;
+	width:100%;
+	display: grid;
+	grid-template-columns:repeat(10, 10%);
+	grid-template-rows: 400px 70px 85px 50px 50px 240px 180px 1fr 1fr;
 }
 
-.vi {
-	left:50px;
-	top:210px;
+.title {
+	background: green;
+	border-radius: 200px 0px 0px 200px;
+	grid-area: 1/5/span 1/ span 6;
 }
 
-.ron {
-	left:50px;
-	top:410px;
+.subtitle {
+	background: white;
+	border-radius: 0px 50px 50px 0px;
+	grid-area: 2/1/span 1/ span 9;
+	z-index: 1;
 }
 
-.ment {
-	left:50px;
-	top:610px;
+.description {
+	background: green;
+	border-radius: 45px 0px 0px 45px;
+	grid-area: 3/3/span 1/ span 8;
 }
+
+.date {
+	background: white;
+	border-radius: 0px 50px 50px 0px;
+	grid-area: 4/1/span 1/ span 4;
+	z-index: 1;
+	}
+
+.location {
+	background: green;
+	border-radius: 45px 0px 0px 45px;
+	grid-area: 5/2/span 1/ span 9;	
+	}
+
+.lecture {
+	background: white;
+	border-radius: 0px 120px 120px 0px;
+	grid-area: 6/1/span 1/ span 7;
+	z-index: 1;
+}
+
+.faculty {
+	background: green;
+	border-radius: 100px 0px 0px 100px;
+	grid-area: 7/5/span 1/ span 6;	
+}
+
+h1 {
+	font-size: 80px;
+	padding-left: 100px;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+h2 {
+	padding-left: 40px;
+	color: green;
+}
+
+h3 {
+	padding-left: 40px;
+	line-height: 25px;
+	color: white;
+	font-weight: normal;
+}
+
+h4 {
+	padding-top: 10px;
+	padding-left: 40px;
+	color: green;
+}
+
+h5 {
+	padding-left: 40px;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p {
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 20px;
+	color: green;
+}
+
+.white {
+	color: white;
+}
+
+.subtitle-block {
+	background: green;
+	grid-area: 2/9/span 1/ span 2;
+	z-index: 0;
+}
+
+.date-block {
+	background: green;
+	grid-area: 4/4/span 1/ span 7;
+	z-index: 0;
+}
+
+.lecture-block {
+	background: green;
+	grid-area: 6/7/span 1/ span 4;
+	z-index: 0;
+}
+
+
+.website {
+	background: green;
+	border-radius: 0px 85px 85px 0px;
+	grid-area: 9/1/span 1/ span 1;
+	z-index: 1;
+}
+
+
+
+
 
 
 
