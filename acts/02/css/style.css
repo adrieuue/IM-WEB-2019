@@ -1,0 +1,108 @@
+body, html {
+	height:100%;
+	margin:0;
+	
+
+}
+
+.startButton {
+	position: fixed;
+	background: transparent;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 5px solid blue;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+
+}
+
+#point {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border:4px solid white;
+	border-top: 4px solid white;
+	margin-left: -12px;
+	margin-top: -12px;
+
+}
+/*www.youtube.com/watch?v=r3I04RXsvYA*/
+/*follow mouse around, margins and transition*/
+
+.dot-one {
+	position: absolute;
+	background: red;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	top: 20%;
+	left: 20%;
+	transition: 0.15s;
+}
+
+.dot-two {
+	position: absolute;
+	background: pink;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	top: 58%;
+	left: 43%;
+	transition: 0.2s;
+}
+
+.dot-three {
+	position: absolute;
+	background: purple;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-top: -20px;
+	margin-left: 20px;
+	top: 44%;
+	left: 33%;
+	transition: 0.25s;
+}
+
+.dot-four {
+	position: absolute;
+	background: orange;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: -20px;
+	top: 34%;
+	left: 82%;
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
