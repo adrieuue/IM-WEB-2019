@@ -5,6 +5,20 @@ body, html {
 
 }
 
+#point {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border:2px solid white;
+	border-top: 2px solid white;
+	margin-left: -6px;
+	margin-top: -6px;
+
+}
+/*www.youtube.com/watch?v=r3I04RXsvYA*/
+/*follow mouse around, margins and transition*/
+
 .startButton {
 	position: fixed;
 	background: transparent;
@@ -19,70 +33,53 @@ body, html {
 
 }
 
-#point {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	border-radius: 50%;
-	border:4px solid white;
-	border-top: 4px solid white;
-	margin-left: -12px;
-	margin-top: -12px;
-
-}
-/*www.youtube.com/watch?v=r3I04RXsvYA*/
-/*follow mouse around, margins and transition*/
 
 .dot-one {
 	position: absolute;
-	background: red;
+	background: white;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
 	margin-top: 20px;
 	margin-left: 20px;
-	top: 20%;
-	left: 20%;
 	transition: 0.15s;
+	
 }
 
 .dot-two {
 	position: absolute;
-	background: pink;
+	background: white;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
 	margin-top: -20px;
 	margin-left: -20px;
-	top: 58%;
-	left: 43%;
 	transition: 0.2s;
+	
 }
 
 .dot-three {
 	position: absolute;
-	background: purple;
+	background: white;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
 	margin-top: -20px;
 	margin-left: 20px;
-	top: 44%;
-	left: 33%;
 	transition: 0.25s;
+	
 }
 
 .dot-four {
 	position: absolute;
-	background: orange;
+	background: white;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
 	margin-top: 20px;
 	margin-left: -20px;
-	top: 34%;
-	left: 82%;
 	transition: 0.3s;
+	
 }
 
 

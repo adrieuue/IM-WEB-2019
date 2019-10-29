@@ -1,4 +1,14 @@
 
+$(document).mousemove(function(e){
+	$("#point").css({
+		left:(e.pageX),
+		top:(e.pageY)
+	})
+
+})
+//www.youtube.com/watch?v=r3I04RXsvYA
+//follow mouse around
+
 $(".startButton").hover(function(){
   $(this).css("background-color", "blue");
   }
@@ -18,26 +28,22 @@ $(".startButton").click(function(){
 
 	$("body")
 			.css("background-color", "blue")
-			// .css("cursor", "none")
+			.css("cursor", "none")
 //www.w3schools.com/cssref/pr_class_cursor.asp
 //cursor properties
 	
 	$("#point")
-			.css("border-top-color", "orange")
+			.css("border-color", "cyan")
+			.css("border-top-color", "white")
+
+	addDotOne()
+	addDotTwo()
+	addDotThree()
+	addDotFour()
 	
 })
 
 
-$(document).mousemove(function(e){
-	$("#point").css({
-		left:(e.pageX),
-		top:(e.pageY)
-	})
-
-})
-//www.youtube.com/watch?v=r3I04RXsvYA
-//follow mouse around
-	
 $(".dot-one").hover(function() {
 	$(document).mousemove(function(e){
 		$(".dot-one").css({
@@ -45,6 +51,7 @@ $(".dot-one").hover(function() {
 		top:(e.pageY)
 		})
 		.css("background-color", "white")
+		
 	})
 })
 
@@ -55,6 +62,7 @@ $(".dot-two").hover(function() {
 		top:(e.pageY)
 		})
 		.css("background-color", "white")
+		
 	})
 })
 
@@ -65,6 +73,7 @@ $(".dot-three").hover(function() {
 		top:(e.pageY)
 		})
 		.css("background-color", "white")
+		
 	})
 })
 
@@ -75,6 +84,7 @@ $(".dot-four").hover(function() {
 		top:(e.pageY)
 		})
 		.css("background-color", "white")
+
 	})
 })
 
@@ -82,6 +92,86 @@ $(".dot-four").hover(function() {
 
 
 
+
+
+
+
+
+function addDotOne (){
+	var randomX = Math.floor(Math.random()* $(window).width())
+	var randomY = Math.floor(Math.random()* $(window).height())
+
+	$(".dot-one").css({
+		"top":randomX,
+		"left":randomY
+	})
+
+}
+
+function addDotTwo (){
+	var randomX = Math.floor(Math.random()* $(window).width())
+	var randomY = Math.floor(Math.random()* $(window).height())
+
+	$(".dot-two").css({
+		"top":randomX,
+		"left":randomY
+	})
+
+}
+
+function addDotThree (){
+	var randomX = Math.floor(Math.random()* $(window).width())
+	var randomY = Math.floor(Math.random()* $(window).height())
+
+	$(".dot-three").css({
+		"top":randomX,
+		"left":randomY
+	})
+
+}
+
+function addDotFour (){
+	var randomX = Math.floor(Math.random()* $(window).width())
+	var randomY = Math.floor(Math.random()* $(window).height())
+
+	$(".dot-four").css({
+		"top":randomX,
+		"left":randomY
+	})
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
