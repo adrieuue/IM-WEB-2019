@@ -4,74 +4,39 @@ $(document).mousemove(function(e){ //makes the pointer follow the mouse
 		left:(e.pageX),
 		top:(e.pageY)
 	})
+	//www.youtube.com/watch?v=r3I04RXsvYA
+	//follow mouse around
 
 	turnCursor () //function is placed inside the mousemove event, so it happens everytime the mouse moves
 
 
-
 })
-//www.youtube.com/watch?v=r3I04RXsvYA
-//follow mouse around
 
 
+moveRenegadeDot() //calls function
+	
 
-	addDotOne() //calls function
-	// addDotTwo()
-	// addDotThree()
-	// addDotFour()
-
-$(".dot-one").hover(function() { //when mouse hovers over dot, the following functions are activated
+$(".renegade-dot").mouseenter(function() { //when mouse hovers over dot, the following functions are activated
+	moveRenegadeDot()
+	addDot()
 	$(document).mousemove(function(e){ //dot follows mouse
-		$(".dot-one").css({ //selects the dot, then assigns coordinates to it's css (that follow the mouse)
+
+		$(".follower-dot")
+		.css({ //selects the dot, then assigns coordinates to it's css (that follow the mouse)
 		left:(e.pageX),
 		top:(e.pageY)
 		})
-		.css("background-color", "white") //changes dot's colour to white
+		.css("background-color", "white")
 		
 	})
 })
 
 
-// $(".dot-two").hover(function() {
-// 	$(document).mousemove(function(e){
-// 		$(".dot-two").css({
-// 		left:(e.pageX),
-// 		top:(e.pageY)
-// 		})
-// 		.css("background-color", "white")
-		
-// 	})
-// })
-
-// $(".dot-three").hover(function() {
-// 	$(document).mousemove(function(e){
-// 		$(".dot-three").css({
-// 		left:(e.pageX),
-// 		top:(e.pageY)
-// 		})
-// 		.css("background-color", "white")
-		
-// 	})
-// })
-
-// $(".dot-four").hover(function() {
-// 	$(document).mousemove(function(e){
-// 		$(".dot-four").css({
-// 		left:(e.pageX),
-// 		top:(e.pageY)
-// 		})
-// 		.css("background-color", "white")
-
-// 	})
-// })
-
-
-
-function addDotOne (){ //creating a function that randomizes dot position
+function moveRenegadeDot (){ //creating a function that randomizes dot position
 	var randomX = Math.floor(Math.random()* $(window).width()) //creates random number for an X coordinate
 	var randomY = Math.floor(Math.random()* $(window).height()) //creates random number for a Ycoordinate
 
-	$(".dot-one").css({ 
+	$(".renegade-dot").css({ 
 		"left":randomX, //defines the random X coordinate of dot
 		"top":randomY //defines the random Y coordinate of dot
 	})
@@ -80,46 +45,37 @@ function addDotOne (){ //creating a function that randomizes dot position
 
 
 
-// function addDotTwo (){
-// 	var randomX = Math.floor(Math.random()* $(window).width())
-// 	var randomY = Math.floor(Math.random()* $(window).height())
 
-// 	$(".dot-two").css({
-// 		"top":randomX,
-// 		"left":randomY
-// 	})
+function addDot (id,marginLeft, marginTop, rTransition){
+	var marginLeft =  (Math.floor(Math.random()* 20)+1) *5;
+	var marginTop =  (Math.floor(Math.random()* 20)+1) *5;
+	var rTransition = (Math.random() + "s")
+	
+	//www.w3schools.com/js/js_random.asp
 
-// }
+	//stackoverflow.com/questions/49849299/jquery-letters-fade-in-randomly
+	// how to define the number as seconds: + "s"
 
-// function addDotThree (){
-// 	var randomX = Math.floor(Math.random()* $(window).width())
-// 	var randomY = Math.floor(Math.random()* $(window).height())
 
-// 	$(".dot-three").css({
-// 		"top":randomX,
-// 		"left":randomY
-// 	})
-
-// }
-
-// function addDotFour (){
-// 	var randomX = Math.floor(Math.random()* $(window).width())
-// 	var randomY = Math.floor(Math.random()* $(window).height())
-
-// 	$(".dot-four").css({
-// 		"top":randomX,
-// 		"left":randomY
-// 	})
-
-// }
-
+	$("<div></div>")
+	.addClass("follower-dot")
+	.attr("id",id)
+	.css({
+		"margin-left":marginLeft,
+		"margin-top":marginTop,
+		"transition":rTransition
+		
+	})
+	.appendTo("body")
+	}
+	
 
 
 function turnCursor(){ //function created between location of dot and cursor coordinate
 
 	//location of dot, refers to random coordinates defined above in $(".dot").css({
-	var dX= parseInt( $(".dot-one").css("left")) //the X coordinate of the dot, parseInt makes numbers
-	var dY= parseInt( $(".dot-one").css("top")) //the Y coordinate of the dot, parseInt makes numbers
+	var dX= parseInt( $(".renegade-dot").css("left")) //the X coordinate of the dot, parseInt makes numbers
+	var dY= parseInt( $(".renegade-dot").css("top")) //the Y coordinate of the dot, parseInt makes numbers
 
 	// console.log("X:"+dX+" "+"Y:"+dY)
 
@@ -136,7 +92,12 @@ function turnCursor(){ //function created between location of dot and cursor coo
 		"transform": "rotate("+angle+"deg)"
 
 	})
+
+	//stackoverflow.com/questions/15653801/rotating-object-to-face-mouse-pointer-on-mousemove/15654454
+	//formula for the turning angle
 }
+
+
 
 
 
