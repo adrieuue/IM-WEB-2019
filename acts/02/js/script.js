@@ -17,6 +17,7 @@ moveRenegadeDot() //calls function
 	
 
 $(".renegade-dot").mouseenter(function() { //when mouse hovers over dot, the following functions are activated
+	
 	moveRenegadeDot()
 	addDot()
 	$(document).mousemove(function(e){ //dot follows mouse
@@ -47,9 +48,9 @@ function moveRenegadeDot (){ //creating a function that randomizes dot position
 
 
 function addDot (id,marginLeft, marginTop, rTransition){
-	var marginLeft =  (Math.floor(Math.random()* 20)+1) *5;
-	var marginTop =  (Math.floor(Math.random()* 20)+1) *5;
-	var rTransition = (Math.random() + "s")
+	var marginLeft =  (Math.floor(Math.random()* 20)+1) *5; //creates random number for an X coordinate
+	var marginTop =  (Math.floor(Math.random()* 20)+1) *5; //creates random number for an Y coordinate
+	var rTransition = (Math.random() + "s") //creates random number between 0 and 1 for a transition length
 	
 	//www.w3schools.com/js/js_random.asp
 
@@ -57,8 +58,8 @@ function addDot (id,marginLeft, marginTop, rTransition){
 	// how to define the number as seconds: + "s"
 
 
-	$("<div></div>")
-	.addClass("follower-dot")
+	$("<div></div>") //creates a new div
+	.addClass("follower-dot") //adds class to the div
 	.attr("id",id)
 	.css({
 		"margin-left":marginLeft,
@@ -66,7 +67,7 @@ function addDot (id,marginLeft, marginTop, rTransition){
 		"transition":rTransition
 		
 	})
-	.appendTo("body")
+	.appendTo("body") //adds div to the page
 	}
 	
 
