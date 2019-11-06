@@ -8,58 +8,43 @@ body, html {
 }
 
 h1{
-	margin: 10px;
+	margin-top: 2%;
+	margin-left: 10%;
 	font-weight: normal;
 	color: cyan;
-	text-decoration: underline;
+	text-decoration: underline dashed;
+	/*www.w3schools.com/cssref/css3_pr_text-decoration-style.asp*/
+	
 }
 
 p {
 	color: gray;
 	width: 225px;
+	margin-top: 10%;
+	margin-left: 10%;
 }
 
-a {
-	text-decoration: none;
-	color: gray;
- }
-
- #one {
- 	margin: 10%;
-
- }
-
- #two {
- 	margin: 30%;
-
- }
-
  #three {
- 	margin: 20%;
-
- }
-
- #four {
- 	margin: 50%;
-
- }
-
- #five {
- 	margin: 40%;
-
- }
-
- #six {
- 	margin: 80%;
-
+ 	color: red;
+ 	text-decoration: line-through;
  }
 
  #seven {
- 	margin: 60%;
-
+ 	margin-left: 50%
  }
 
- #eight {
- 	margin: 70%;
 
+
+ a {
+ 	position: absolute;
+	text-decoration: none;
+	color: gray;
+	margin-left: 50%;
+	margin-top: 10%;
+	width: 225px;
+	
+	
  }
+
+
+

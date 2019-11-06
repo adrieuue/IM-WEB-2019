@@ -1,101 +1,64 @@
-$("p").hide()
+mousePointer()
 
+$("p,a").hide()
+//www.w3schools.com/jquery/sel_multiple_sel.asp
+//select multiple things at once
+
+//www.w3schools.com/jquery/jquery_hide_show.asp
+//hide and show elements
 
  $("h1")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#one").show()
  	})
 
-  $("p").hide()
-
  $("#one")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#two").show()
  	})
 
  $("#two")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#three").show()
  	})
 
  $("#three")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#four").show()
  	})
 
  $("#four")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#five").show()
  	})
 
  $("#five")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
  	.click(function(){
  		$("#six").show()
  	})
 
-  $("#six")
- 	.mouseenter(function(){
-	 	$("body")
-	 		.css("cursor", "pointer")
-	 	})
- 	.mouseleave(function(){
-	 	$("body")
-	 		.css("cursor", "default")
-	 	})
+$("#six")
  	.click(function(){
  		$("#seven").show()
  	})
 
- $("#seven")
- 	.mouseenter(function(){
+$("#seven")
+ 	.click(function(){
+ 		$("#eight").show()
+ 	})
+  
+ $("#eight")
+ 	.click(function(){
+ 		$("a").show()
+ 	})
+
+
+
+
+function mousePointer (){
+
+$("h1, p, a")
+	.mouseenter(function(){
 	 	$("body")
 	 		.css("cursor", "pointer")
 	 	})
@@ -103,13 +66,8 @@ $("p").hide()
 	 	$("body")
 	 		.css("cursor", "default")
 	 	})
- 	.click(function(){
- 		$("#eight").show()
- 	})
 
-
-
-
+}
 
 
 
