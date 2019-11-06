@@ -45,8 +45,6 @@ function moveRenegadeDot (){ //creating a function that randomizes dot position
 }
 
 
-
-
 function addDot (id,marginLeft, marginTop, rTransition){
 	var marginLeft =  (Math.floor(Math.random()* 20)+1) *5; //creates random number for an X coordinate
 	var marginTop =  (Math.floor(Math.random()* 20)+1) *5; //creates random number for an Y coordinate

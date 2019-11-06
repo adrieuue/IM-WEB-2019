@@ -1,0 +1,65 @@
+body, html {
+	height:100%;
+	margin:0;
+	cursor: default;
+	font-family: 'Robot Mono', monospace;
+	background: white;
+
+}
+
+h1{
+	margin: 10px;
+	font-weight: normal;
+	color: cyan;
+	text-decoration: underline;
+}
+
+p {
+	color: black;
+	width: 225px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+ }
+
+ #one {
+ 	margin: 10%;
+
+ }
+
+ #two {
+ 	margin: 30%;
+
+ }
+
+ #three {
+ 	margin: 20%;
+
+ }
+
+ #four {
+ 	margin: 50%;
+
+ }
+
+ #five {
+ 	margin: 40%;
+
+ }
+
+ #six {
+ 	margin: 80%;
+
+ }
+
+ #seven {
+ 	margin: 60%;
+
+ }
+
+ #eight {
+ 	margin: 70%;
+
+ }
