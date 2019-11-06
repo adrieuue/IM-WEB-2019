@@ -24,6 +24,8 @@ $("p,a").hide()
 
  $("#three")
  	.click(function(){
+ 		$(this).fadeOut()
+ 		//www.w3schools.com/jquery/jquery_fade.asp
  		$("#four").show()
  	})
 
