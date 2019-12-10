@@ -61,7 +61,7 @@ $(window).scroll(function() {
       
       } else {
         
-        // $("body").css ("background-color", "#F1F1EF")
+        $("body").css ("background-color", "beige")
     }
 });
 
@@ -191,6 +191,23 @@ $(window).scroll(function() {
 
     	player.loadVideoById(songs[s]);
     } 
+});
+
+
+$(window).scroll(function() {
+    var left_of_element = $("#end-card").offset().left;
+    var right_of_element = $("#end-card").offset().left + $("#end-card").outerWidth();
+    var right_of_screen = $(window).scrollLeft() + $(window).innerWidth();
+    var left_of_screen = $(window).scrollLeft();
+
+    if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
+      
+      $("body").css ("background-color", "beige")
+      
+      } else {
+        
+        // $("body").css ("background-color", "#F1F1EF")
+    }
 });
 
 
