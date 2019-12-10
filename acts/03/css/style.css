@@ -2,7 +2,7 @@ body, html {
 	height:100%;
 	width: 1600vw;
 	margin:0;
-	background: beige;
+	background: #FFE5AB;
 	
 }
 
@@ -11,7 +11,7 @@ body, html {
 	position: fixed;
 	width: 150vw;
 	height: 25px;
-	background: beige;
+	background: #FFE5AB;
 	z-index: 1;
 }
 
@@ -20,7 +20,7 @@ body, html {
 	width: 150vw;
 	bottom: 0vh;
 	height: 25px;
-	background: beige;
+	background: #FFE5AB;
 	z-index: 1;
 }
 
@@ -29,7 +29,7 @@ body, html {
 	width: 25px;
 	left: 0vw;
 	height: 100vh;
-	background: beige;
+	background: #FFE5AB;
 	z-index: 1;
 }
 
@@ -38,14 +38,14 @@ body, html {
 	width: 25px;
 	right: 0vw;
 	height: 100vh;
-	background: beige;
+	background: #FFE5AB;
 	z-index: 1;
 }
 
 
 
 h1 {
-	color: #B20000;
+	color: #BF2E26;
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 15px;
 	font-style: bold;
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-	color: gray;
+	color: #59534D;
 	font-family: 'Rock Salt', cursive;
 	font-weight: normal;
 	font-size: 19px;
@@ -73,8 +73,8 @@ h2 {
 }
 
 h3 {
-	background: beige;
-	color: #B20000;
+	background: #FFE5AB;
+	color: #BF2E26;
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 3px;
 	text-align: center;
@@ -86,7 +86,7 @@ h3 {
 }
 
 p {
-	color: gray;
+	color: #59534D;
 	font-family: 'Rock Salt', cursive;
 	font-weight: normal;
 	font-size: 15px;

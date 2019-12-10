@@ -57,11 +57,11 @@ $(window).scroll(function() {
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
       
-      $("body").css ("background-color", "#1E1C1C")
+      $("body").css ("background-color", "#1E1612")
       
       } else {
         
-        $("body").css ("background-color", "beige")
+        $("body").css ("background-color", "#FFE5AB")
     }
 });
 
@@ -72,7 +72,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-      $("body").css ("background-color", "#1E1C1C")
+      $("body").css ("background-color", "#1E1612")
       
     }
 });
@@ -85,7 +85,7 @@ $(window).scroll(function() {
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
     	
-      $("body").css ("background-color", "#1E1C1C")
+      $("body").css ("background-color", "#1E1612")
 
     	s=0;
 
@@ -105,7 +105,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=1;
 
@@ -121,7 +121,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=2;
 
@@ -137,7 +137,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=3;
 
@@ -153,7 +153,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=4;
 
@@ -169,7 +169,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=5;
 
@@ -185,7 +185,7 @@ $(window).scroll(function() {
     var left_of_screen = $(window).scrollLeft();
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
-    	$("body").css ("background-color", "#1E1C1C")
+    	$("body").css ("background-color", "#1E1612")
 
       s=6;
 
@@ -202,7 +202,7 @@ $(window).scroll(function() {
 
     if ((right_of_screen > left_of_element) && (left_of_screen < right_of_element)){
       
-      $("body").css ("background-color", "beige")
+      $("body").css ("background-color", "#FFE5AB")
       
       } else {
         
