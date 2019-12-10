@@ -1,0 +1,58 @@
+body, html {
+	height:100%;
+	margin:0;
+	cursor: default;
+	font-family: 'Robot Mono', monospace;
+	background: white;
+
+}
+
+h1{
+	margin-top: 5%;
+	margin-left: 10%;
+	font-weight: normal;
+	color: cyan;
+	text-decoration: underline dashed;
+	/*www.w3schools.com/cssref/css3_pr_text-decoration-style.asp*/
+	
+}
+
+p {
+	color: gray;
+	width: 225px;
+	margin-left: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+ #three {
+ 	position: absolute;
+ 	color: red;
+ 	text-decoration: line-through;
+ 	margin-top: 20%;
+ }
+
+ #four {
+ 	
+ }
+
+ #seven {
+ 	margin-left: 50%
+ }
+
+
+
+ a {
+ 	position: absolute;
+	text-decoration: none;
+	color: gray;
+	margin-left: 50%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 225px;
+	
+	
+ }
+
+
+
