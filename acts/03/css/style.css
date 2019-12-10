@@ -12,6 +12,29 @@ body, html {
 	grid-template-columns: repeat(11,100vw);
 }
 
+#jeepneys {
+	position: absolute;
+	left: 150vw;
+	width: 500px;
+	
+}
+
+#ice-cream-cart {
+	position: absolute;
+	left: 280vw;
+	width: 400px;
+	top: 70vh;
+	
+}
+
+#building {
+	position: absolute;
+	left: 180vw;
+	width: 400px;
+	top: 30vh;
+	
+}
+
 /*#border-top {
 	position: fixed;
 	width: 150vw;
