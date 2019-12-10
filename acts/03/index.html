@@ -12,11 +12,12 @@
 </head>
 <body>
 
+<div id="grid">
 
-	<div id="border-top"></div>
+	<!-- <div id="border-top"></div>
 	<div id="border-bottom"></div>
 	<div id="border-left"></div>
-	<div id="border-right"></div>
+	<div id="border-right"></div> -->
 
 	<div id="title"> 
 		<h1>
@@ -48,12 +49,9 @@
 
 	<div id="player"></div>
 
-	<div id="song-one">
-		<h3> 
-		MAY PANAHON (AWIT NG PETI B)
-		<br>
-		- BONG RAMILO AND RENE AGBAYANI
-		</h3>
+	<div class="song" id="song-0" data-song="ee5mLjoJdsQ">
+		<h3> MAY PANAHON (AWIT NG PETI B) </h3>
+		<h4> BONG RAMILO AND RENE AGBAYANI </h4>
 
 		<p>
 		“This song is entitled ‘Awit ng Peti B’. That’s what the people were familiar with. But the real title is ‘May Panahon’. It is about the process of the awakening of the people, or let’s say, the activists, that decided to take action and fight the oppression and cruelty of the ruling Marcos.”
@@ -62,11 +60,9 @@
 		</p>
 	</div>
 
-	<div id="song-two">
-		<h3>
-		BABAE 
-		<br>
-		- INANG LAYA
+	<div class="song" id="song-1" data-song="CuYwsR5dq3o">
+		<h3> BABAE </h3>
+		<h4> INANG LAYA </h4>
 		</h3>
 
 		<p>
@@ -76,12 +72,9 @@
 		</p>
 	</div>
 
-	<div id="song-three">
-		<h3>
-		OY UTOL, BUTO'T BALAT KA NA'Y NATUTULOG KA PA
-		<br>
-		- HEBER BARTOLOME
-		</h3>
+	<div class="song" id="song-2">
+		<h3> OY UTOL, BUTO'T BALAT KA NA'Y NATUTULOG KA PA </h3>
+		<h4> HEBER BARTOLOME </h4>
 
 		<p>
 		“The song decries the passivity prevalent among Filipinos [at the time] and chides the populace for not doing anything about their situation of unfreedom, inequality, and suffering. But the song does not end on this note. The cry of pain in the beginning becomes a shout of protest in the end.” 
@@ -90,12 +83,10 @@
 		</p>
 	</div>
 	
-	<div id="song-four">
-		<h3>
-		MUTYA
-		<br>
-		- ALOYSIUS BAES, AFTER BONIFACIO ABDON
-		</h3>
+	<div class="song" id="song-3">
+		<h3> MUTYA </h3>
+		<h4> ALOYSIUS BAES, AFTER BONIFACIO ABDON </h4>
+		
 
 		<p>
 		“Arrested upon the declaration of martial law, [Aloysius Baes] endured prison through music, sometimes written on [his younger brother] Jonas’ music sheets, which the latter always carried with him on family visits to the stockade. One song that he managed to smuggle out of prison was a kundiman adapted from an original by Bonifacio Abdon, a musician of the Philippine Revolution and one of the early music teachers at the UP Conservatory of Music. It was one of the first underground protest songs against martial law, ‘Mutya’.” 
@@ -104,12 +95,9 @@
 		</p>
 	</div>
 	
-	<div id="song-five">
-		<h3>
-		HALINA
-		<br>
-		- JESS SANTIAGO
-		</h3>
+	<div class="song" id="song-4">
+		<h3> HALINA </h3>
+		<h4> JESS SANTIAGO </h4>
 
 		<p>
 		“ ‘Halina’ particularizes the basic issues of feudalism, capitalism and imperialism … On the whole, the songs of Jess Santiago serve as the social conscience of the times. Each narration reveals an aspect of life under Martial law that will never find its way to government-controlled-media. The songs are eloquent testimonies of oppression people are made to endure.”
@@ -118,12 +106,9 @@
 		</p>
 	</div>
 	
-	<div id="song-six">
-		<h3>
-		BALITA
-		<br>
-		- ASIN
-		</h3>
+	<div class="song" id="song-5">
+		<h3> BALITA </h3>
+		<h4> ASIN </h4>
 
 		<p>
 		“Balita originally written to help address the conflicts going on in Mindanao during the 1970s, since the band members hail from Cebu. However, as the band’s popularity grew, their songs began to travel. When Balita reached the streets of Manila, people immediately used it as an anthem against the tyrannical regime they were expecting during Martial Law”. 
@@ -132,12 +117,9 @@
 		</p>
 	</div>
 	
-	<div id="song-seven">
-		<h3>
-		ALING PAG-IBIG PA
-		<br>
-		- PAT CASTILLO
-		</h3>
+	<div class="song" id="song-6">
+		<h3> ALING PAG-IBIG PA </h3>
+		<h4> PAT CASTILLO </h4>
 
 		<p>
 		“The songs of protest at the time of the Martial Law … usually weren’t direct attacks to the dictatorship. Usually, they are songs that just state a love for the country, desire for freedom, and search for people’s rights.” 
@@ -146,7 +128,8 @@
 		</p>
 	</div>
 
-		<div id="end-card"> 
+		<!-- added song class to this div sp the last song could work in the loop -->
+		<div class ="song" id="-card"> 
 		<h1>
 			PARA 
 			<br>
@@ -155,6 +138,8 @@
 			KALAYAAN
 		</h1>
 	</div>
+
+</div>
 
 	
 
