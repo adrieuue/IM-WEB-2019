@@ -1,4 +1,42 @@
-body, html {
-	height:100%;
-	margin:0;
+body {
+	background: white;
+	font-family: 'Robot Mono', monospace;
+	width: 500px;
+
+}
+
+
+h1 {
+	position: relative;
+	margin: 20px;
+	font-size: 50px;
+	font-weight: 500;
+	color: blue;
+}
+
+
+h2 {
+	position: relative;
+	margin: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	color: gray;
+}
+
+p {
+	position: relative;
+	margin: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	color: gray;	
+}
+
+em {
+	color: black;
+}
+
+a {
+	margin: 20px;
+	color: blue;
+	text-decoration: none;
 }
