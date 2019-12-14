@@ -14,8 +14,24 @@ h1 {
 	color: blue;
 }
 
-
 h2 {
+	position: relative;
+	margin: 20px;
+	font-size: 24px;
+	font-weight: 300;
+	color: black;
+}
+
+h3 {
+	position: relative;
+	margin: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	color: black;
+}
+
+
+h4 {
 	position: relative;
 	margin: 20px;
 	font-size: 15px;
