@@ -13,8 +13,69 @@ body, html {
 	grid-template-columns: repeat(44, 25vw);
 }
 
-#image-01 {
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+/*style buttons, specifically hover and box shadow*/
+
+.button {
+	position: fixed;
+	background-color: #FFE5AB;
+	border: 1.5px solid #B20000; 
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	bottom: 1vw;
+	z-index: 2;
+
+}
+
+.button:hover {
+	background-color: #B20000; 
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button-0 {
+	left: 41%;
+	margin-left: -5px;
+}
+
+#button-1 {
+	left: 44%;
+	margin-left: -5px;
+}
+
+#button-2 {
+	left: 47%;
+	margin-left: -5px;
+}
+
+#button-3 {
+	left: 50%;
+	margin-left: -5px;
+}
+
+#button-4 {
+	left: 53%;
+	margin-left: -5px;
+}
+
+#button-5 {
+	left: 56%;
+	margin-left: -5px;
+}
+
+#button-6 {
+	left: 59%;
+	margin-left: -5px;
+}
+
+.image {
 	position: relative;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#image-01 {
 	grid-column: 6;
 	grid-row: 1;
 	width: 55vw;
@@ -22,7 +83,6 @@ body, html {
 }
 
 #image-02 {
-	position: relative;
 	grid-column: 10;
 	grid-row: 6;
 	left: 10vw;
@@ -30,44 +90,39 @@ body, html {
 }
 
 #image-03 {
-	position: relative;
 	grid-column: 11;
 	grid-row: 1;
 	left: 15vw;
 	width: 50vw;
 	top: -5vw;
+	
 }
 
 #image-04 {
-	position: relative;
 	grid-column: 15;
 	grid-row: 1;
 	width: 30vw;
 	left: -10vw;
 	z-index: 1;
-
+	
 }
 
 #image-05 {
-	position: relative;
 	grid-column: 15;
 	grid-row: 2;
 	width: 38vw;
 	left: 12vw;
-
+	
 }
 
 #image-06 {
-	position: relative;
 	grid-column: 18;
 	grid-row: 4;
 	width: 60vw;
 	
-	
 }
 
 #image-07 {
-	position: relative;
 	grid-column: 21;
 	grid-row: 1;
 	width: 35vw;
@@ -75,23 +130,20 @@ body, html {
 }
 
 #image-08 {
-	position: relative;
 	grid-column: 23;
 	grid-row: 1;
 	width: 40vw;
 	left: 10vw;
-}
-
-#image-09 {
-	position: relative;
-	grid-column: 27;
-	grid-row: 3;
-	width: 45vw;
 	
 }
 
+#image-09 {
+	grid-column: 27;
+	grid-row: 3;
+	width: 45vw;
+}
+
 #image-10 {
-	position: relative;
 	grid-column: 30;
 	grid-row: 1;
 	width: 55vw;
@@ -100,38 +152,33 @@ body, html {
 }
 
 #image-11 {
-	position: relative;
 	grid-column: 32;
 	grid-row: 5;
 	width: 40vw;
 	left: 10vw;
-	
 }
 
 #image-12 {
-	position: relative;
 	grid-column: 35;
 	grid-row: 1;
 	width: 45vw;
-	
 }
 
 #image-13 {
-	position: relative;
 	grid-column: 38;
 	grid-row: 1;
 	width: 35vw;
 }
 
 #image-14 {
-	position: relative;
 	grid-column: 39;
 	grid-row: 5;
 	width: 45vw;
 	top: 1.5vw;
+	
 }
 
-/*for the divs*/
+/*positioning image div containers*/
 
 #imageDiv-01 {
 	position: relative;

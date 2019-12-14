@@ -82,7 +82,40 @@ $("#player").hide()
         player.stopVideo()
       })
 
-      
+
+//fscrollTo learned rom an in-class tutorial
+
+$("#button-0").click(function(){
+  $("body").scrollTo("#song-0", 1000)
+})
+
+$("#button-1").click(function(){
+  $("body").scrollTo("#song-1", 1000)
+})
+
+
+$("#button-2").click(function(){
+  $("body").scrollTo("#song-2", 1000)
+})
+
+
+$("#button-3").click(function(){
+  $("body").scrollTo("#song-3", 1000)
+})
+
+
+$("#button-4").click(function(){
+  $("body").scrollTo("#song-4", 1000)
+})
+
+
+$("#button-5").click(function(){
+  $("body").scrollTo("#song-5", 1000)
+})
+
+$("#button-6").click(function(){
+  $("body").scrollTo("#song-6", 1000)
+})
 
 
 
