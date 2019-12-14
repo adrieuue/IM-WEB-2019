@@ -18,7 +18,7 @@ body, html {
 	grid-column: 6;
 	grid-row: 1;
 	width: 55vw;
-	left: 10vw;
+	left: 5vw;
 }
 
 #image-02 {
@@ -129,6 +129,116 @@ body, html {
 	grid-row: 5;
 	width: 45vw;
 	top: 1.5vw;
+}
+
+/*for the divs*/
+
+#imageDiv-01 {
+	position: relative;
+	grid-column: 6;
+	grid-row: 1;
+	width: 55vw;
+}
+
+#imageDiv-02 {
+	position: relative;
+	grid-column: 10;
+	grid-row: 6;
+	width: 34vw;
+}
+
+#imageDiv-03 {
+	position: relative;
+	grid-column: 11;
+	grid-row: 1;
+	left: 15vw;
+	width: 50vw;
+}
+
+#imageDiv-04 {
+	position: relative;
+	grid-column: 15;
+	grid-row: 1;
+	width: 30vw;
+	z-index: 1;
+
+}
+
+#imageDiv-05 {
+	position: relative;
+	grid-column: 15;
+	grid-row: 2;
+	width: 38vw;
+
+}
+
+#imageDiv-06 {
+	position: relative;
+	grid-column: 18;
+	grid-row: 4;
+	width: 60vw;
+	
+}
+
+#imageDiv-07 {
+	position: relative;
+	grid-column: 21;
+	grid-row: 1;
+	width: 35vw;
+	
+}
+
+#imageDiv-08 {
+	position: relative;
+	grid-column: 23;
+	grid-row: 1;
+	width: 40vw;
+}
+
+#imageDiv-09 {
+	position: relative;
+	grid-column: 27;
+	grid-row: 3;
+	width: 45vw;
+	
+}
+
+#imageDiv-10 {
+	position: relative;
+	grid-column: 30;
+	grid-row: 1;
+	width: 55vw;
+	z-index: 1;
+}
+
+#imageDiv-11 {
+	position: relative;
+	grid-column: 32;
+	grid-row: 5;
+	width: 40vw;
+	
+}
+
+#imageDiv-12 {
+	position: relative;
+	grid-column: 35;
+	grid-row: 1;
+	width: 45vw;
+	
+}
+
+#imageDiv-13 {
+	position: relative;
+	grid-column: 38;
+	grid-row: 1;
+	width: 35vw;
+}
+
+#imageDiv-14 {
+	position: relative;
+	grid-column: 39;
+	grid-row: 5;
+	width: 45vw;
 }
 
 #title {
