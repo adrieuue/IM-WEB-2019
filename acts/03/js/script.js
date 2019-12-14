@@ -83,7 +83,7 @@ $("#player").hide()
       })
 
 
-//fscrollTo learned rom an in-class tutorial
+//scrollTo learned from an in-class tutorial
 
 $("#button-0").click(function(){
   $("body").scrollTo("#song-0", 1000)
